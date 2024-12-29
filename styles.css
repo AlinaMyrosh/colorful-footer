@@ -46,7 +46,7 @@ a {
 }
 
 .list-wrap {
-  flex-basis: calc((100% - 50px) / 6);
+  flex-basis: calc(100% / 6);
   padding-top: 30px;
   border-top-width: 5px;
   border-top-style: solid;
