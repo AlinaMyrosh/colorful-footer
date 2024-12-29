@@ -1,0 +1,95 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", serif;
+  background: #ffffff;
+  color: #4b5157;
+  margin: 0;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  max-width: 1140px;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.footer {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.footer-container {
+  display: flex;
+}
+
+.list-wrap {
+  flex-basis: calc((100% - 50px) / 6);
+  padding-top: 30px;
+  border-top-width: 5px;
+  border-top-style: solid;
+}
+
+.list-wrap:nth-child(1) {
+  border-top-color: #ff4f52;
+}
+
+.list-wrap:nth-child(2) {
+  border-top-color: #ac8ee3;
+}
+
+.list-wrap:nth-child(3) {
+  border-top-color: #4592ff;
+}
+
+.list-wrap:nth-child(4) {
+  border-top-color: #ffa34d;
+}
+
+.list-wrap:nth-child(5) {
+  border-top-color: #3dc47e;
+}
+
+.list-wrap:nth-child(6) {
+  border-top-color: #6e99ae;
+}
+
+.list-name {
+  color: #262d33;
+  /* font-feature-settings: "liga" off, "clig" off; */
+  line-height: 1.42;
+  margin-bottom: 25px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.list-item {
+  font-size: 14px;
+  line-height: 1.42;
+}
