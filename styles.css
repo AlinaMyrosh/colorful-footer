@@ -5,9 +5,11 @@
 }
 
 body {
-  font-family: "Lato", serif;
   background: #ffffff;
   color: #4b5157;
+  font-family: "Lato", serif;
+  font-size: 14px;
+  line-height: 1.42;
   margin: 0;
 }
 
@@ -78,18 +80,12 @@ a {
 
 .list-name {
   color: #262d33;
-  /* font-feature-settings: "liga" off, "clig" off; */
-  line-height: 1.42;
   margin-bottom: 25px;
+  font-weight: 600;
 }
 
 .list {
   display: flex;
   flex-direction: column;
   gap: 15px;
-}
-
-.list-item {
-  font-size: 14px;
-  line-height: 1.42;
 }
