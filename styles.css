@@ -1,3 +1,8 @@
+:root {
+  --main-color: #4b5157;
+  --title-color: #262d33;
+}
+
 *,
 *::before,
 *::after {
@@ -6,7 +11,7 @@
 
 body {
   background: #ffffff;
-  color: #4b5157;
+  color: var(--main-color);
   font-family: "Lato", serif;
   font-size: 14px;
   line-height: 1.42;
@@ -79,7 +84,7 @@ a {
 }
 
 .list-name {
-  color: #262d33;
+  color: var(--title-color);
   margin-bottom: 25px;
   font-weight: 600;
 }
